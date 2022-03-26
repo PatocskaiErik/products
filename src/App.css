@@ -1,38 +1,78 @@
-.App {
+@import "~@blueprintjs/table/lib/css/table.css";
+
+.new-button {
+  padding-left: 60px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.new-product-title {
+  padding-left: 5px;
+}
+
+.products-table {
+  padding-top: 30px;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.name {
+  margin: 10px;
+  color: #3d3d3d;
+  font-size: 16px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-container {
+  display: grid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.edit-container {
+  display: grid;
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.new-container {
+  display: grid;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.buttons {
+  padding-top: 30px;
   display: flex;
-  flex-direction: column;
+}
+
+.searchbox {
+  display: flex;
   align-items: center;
+  padding-right: 60px;
+}
+
+.error-message {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  padding: auto;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  top: 50%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home {
+  display: flex;
+  justify-content: center;
 }
